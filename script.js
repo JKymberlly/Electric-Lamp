@@ -9,7 +9,7 @@ function moverLampada(x, y) {
 }
 
 function ligando(){
-    lamp.src = './img/acesa.png';
+    lamp.src = 'img/acesa.png';
     container.style.backgroundColor = "#fff"
     texto.innerText = "Apague a luz";
         texto.style.color = "#000"
@@ -17,7 +17,7 @@ function ligando(){
 }
 
 function apagando(){
-    lamp.src = './img/lampada.png';
+    lamp.src = 'img/lampada.png';
     container.style.backgroundColor = "#17131d"
     texto.innerText = "Ligue a luz";
     texto.style.color = "#fff"

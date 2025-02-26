@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+}
 html,body, main{
     height: 100vh;
     background-color: 	#17131d;
+
 }
 .itens{
+    position: relative;
+    top: 150px;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -10,4 +16,29 @@ html,body, main{
 }
 .botoes{
     padding-top: 40px;
+}
+.botao{
+    border-radius: 30%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 219, 229);
+    color: rgb(0, 0, 0);
+}
+.ligar:hover{
+    transition: 1s;
+    background-color: rgb(255, 255, 162);
+}
+.desligar:hover{
+    transition: 1s;
+    background-color: rgb(162, 162, 255);
+}
+.circle{
+    height: 600px;
+    width: 600px;
+    background-color: #5b4f6e;
+    border-radius: 50%;
+}
+.lamp{
+    padding: 50px;
 }

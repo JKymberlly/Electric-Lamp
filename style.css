@@ -1,0 +1,13 @@
+html,body, main{
+    height: 100vh;
+    background-color: 	#17131d;
+}
+.itens{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.botoes{
+    padding-top: 40px;
+}
